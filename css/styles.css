@@ -2,7 +2,33 @@ body {
   font-family: "Montserrat-Black", sans-serif;
 }
 
-#title {
+h1, h2, h3, h4, h5
+ {
+  font-family: 'Montserrat-Bold', sans-serif;
+}
+
+h2 {
+  font-weight: 800;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+}
+
+#heading {
+  font-family: "Montserrat-Black", sans-serif, "Ubuntu";
+  font-size: 3.5rem;
+  font-weight: 900;
+  line-height: 1.5;
+  margin-bottom: 2.5rem;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+#title .container-fluid {
   background-color: #ff4c68;
   color: #ffff;
 }
@@ -25,14 +51,6 @@ body {
 .nav-link {
   font-size: 1.2rem;
   font-family: "Montserrat-Light", sans-serif;
-}
-
-#heading {
-  font-family: "Montserrat-Black", sans-serif, "Ubuntu";
-  font-size: 3.5rem;
-  font-weight: 900;
-  line-height: 1.5;
-  margin-bottom: 2.5rem;
 }
 
 .container-fluid {
@@ -61,72 +79,65 @@ body {
 /* FEATURES SECTION */
 
 #features {
-    margin: 7% 15%;
-    background-color: #fff;
-    position: relative;
-    /* z-index: 1; */
+  margin: 7% 15%;
+  background-color: #fff;
+  position: relative;
+  /* z-index: 1; */
 }
 
 .single-feature {
-    text-align: center;
-    padding: 10px 50px;
-}
-
-h2 {
-    font-family: 'Montserrat-Bold' , sans-serif;
-    font-size: 3rem;
-    font-weight: 800;
-    line-height: 1.5;
-}
-
-h3 {
-    font-family: 'Montserrat-Bold', sans-serif;
-    font-size: 1.5rem;
+  text-align: center;
+  padding: 10px 50px;
 }
 
 .feature-icon {
-    margin-bottom: 1rem;
-    color: #ef8172;
+  margin-bottom: 1rem;
+  color: #ef8172;
 }
 
 .feature-icon:hover {
-    color: #ff4c68;
+  color: #ff4c68;
 }
 
 .feature-paragraph {
-    color: #8f8f8f
+  color: #8f8f8f
 }
 
 
 
 /* TESTIMONIALS */
 
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
 #testimonials {
-    background-color: #ef8172;
-    color: #fff;
-    text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+  text-align: center;
 }
 
 .testimonial-image {
-    margin: 20px;
-    width: 10%;
-    border-radius: 100%;
+  margin: 20px;
+  width: 10%;
+  border-radius: 100%;
 }
 
 #press {
-    background-color: #ef8172;
-    text-align: center;
-    padding-bottom: 3%;
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
 }
 
 .press-img {
-    width: 15%;
-    margin: 20px 20px 50px 20px;
+  width: 15%;
+  margin: 20px 20px 50px 20px;
 }
 
 /* CAROUSEL */
 .carousel-item {
-    padding: 7% 15%;
+  padding: 7% 15%;
 }
 
 
@@ -161,7 +172,7 @@ h3 {
 
 #footer {
   text-align: center;
-  margin: 7% 15%;
+  padding: 7% 15%;
 }
 
 .copy-right {
@@ -186,10 +197,9 @@ h3 {
     position: static;
     transform: rotate(0);
   }
-  
+
   #heading {
     text-align: center;
   }
-  
-}
 
+}
